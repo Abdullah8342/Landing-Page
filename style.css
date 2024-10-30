@@ -1,0 +1,190 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Inner-1 */
+.inner-1 {
+    background-color: #1f2937;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.top-bar,
+.second-top {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    margin: 0 auto;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:20px;
+    list-style-type: none;
+}
+
+
+.second-top {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content,
+.image-block {
+    flex:1 1 400px;
+    height: 300px;
+}
+
+.content button {
+    background-color: blue;
+    font-size: 18px;
+    padding:5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.image-block {
+    background-color: #e5e7eb;
+}
+
+/* End Inner-1 */
+
+
+/* Inner-2 */
+
+.inner-2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 30px;
+
+}
+
+.inner-2 .main-line {
+    margin-bottom: 25px;
+}
+
+.main-box p {
+    flex-grow: 1;
+    flex-wrap: 1;
+    width:350px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    flex-grow: 1;
+    flex-wrap: 1;
+    width:350px;
+    height: 300px;
+    border-radius: 15px;
+    border: 1px solid blue;
+    margin-bottom: 25px;
+}
+
+/* End Inner-2 */
+
+/* Inner-3 */
+
+.inner-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    height: 30%;
+    padding: 50px;
+    align-items: center;
+
+}
+
+
+.inner-3 p {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* End Inner-3 */
+
+
+/* Inner-4 */
+
+.inner-4 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.sdeond-inner-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px;
+    border-radius: 15px;
+    background-color: blue;
+    padding: 50px;
+    align-items: center;
+}
+
+.signup,
+.button {
+    flex: 1 1 auto;
+    color: white;
+}
+
+
+.button button {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+/* End Inner-4 */
+
+/* Inner-5 */
+
+.inner-5 {
+    color: white;
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* End Inner-5 */
