@@ -70,12 +70,6 @@ The design is responsive and adapts to smaller screens.
 
 ---
 
-## Screenshots
-
-![Landing page screenshot](./public/screenshot.png)  
-*(Replace with actual screenshot if available)*
-
----
 
 ## License
 
@@ -83,11 +77,6 @@ This project is open source and available under the MIT License.
 
 ---
 
-## Author
 
-Sameul Adely  
-[SPLASHPROOF DESIGN](https://example.com) *(replace with real link)*
-
----
 
 Feel free to contribute or customize it for your own use!
