@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        .figure {
+            margin: 0px;
+        }
+
+        .img {
+            border-radius: 10px;
+            width: 100px;
+            height: auto;
+        }
+
+        .width {
+            padding: 20px;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            height: 90vh;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2F1893;
+            color: white;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2,
+        h3 {
+            font-size: 2.5rem;
+            color: #2F1893;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #494747;
+            line-height: 1.5;
+        }
+
+        li {
+            line-height: 1.5;
+            font-size: 1.4rem;
+            color: #2F1893;
+            margin-bottom: 5px;
+        }
+
+        .main {
+            width: 70%;
+            max-width: 1020px;
+            margin: 1rem auto;
+        }
+
+        @media (max-width:640px) {
+            .main {
+                width: 90%;
+                margin: 1rem auto;
+            }
+
+            h2,
+            h3 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            li {
+                font-size: 1.2rem;
+            }
+        }
+
+        .border_radius {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .list {
+            font-weight: 650;
+            padding: 0px 10px;
+        }
+
+        @media (max-width:640px) {
+            .border_radius {
+                border-radius: 5px;
+            }
+
+            .list {
+                font-weight: 600;
+                padding: 10px;
+            }
+        }
+
+        figcaption {
+            color: #494747;
+        }
+
+        .white {
+            color: white;
+        }
+
+        .my-20 {
+            margin: 20px auto;
+        }
+
+        .flex_center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" role="banner">
+        <section class="section">
+            <section class="width">
+                <h1 tabindex="0">How to Protect computer.<br> Very Useful Tips</h1>
+                <span>SPLASHPROOF DESIGN</span>
+            </section>
+            <section class="flex">
+                <div class="profileImage">
+                    <figure class="figure">
+                        <img src="./public/robben.jpg" alt="Profile Pic of SPLASHPROOF DESIGN" class="img">
+                    </figure>
+                </div>
+                <div>
+                    <p class="white">Sameul Adely</p>
+                    <p class="white">Lorem ipsum dolor sit amet.</p>
+                    <section>
+                        <nav aria-label="social media ">
+                            <a href="https://x.com/">
+                                <img src="./public/twitter.png" alt="Twiter">
+                            </a>
+                            <a href="https://www.facebook.com/facebook/">
+                                <img src="./public/facebook.png" alt="facebook">
+                            </a>
+                            <a href="https://www.instagram.com/">
+                                <img src="./public/instagram.png" alt="Instagram">
+                            </a>
+                            <a href="https://www.tiktok.com/">
+                                <img src="./public/tiktok.png" alt="Tiktok">
+                            </a>
+                        </nav>
+                    </section>
+                </div>
+            </section>
+        </section>
+    </header>
+    <main class="main my-20" role="main">
+        <article>
+            <header class="my-20">
+                <h2 tabindex="0">Branding</h2>
+            </header>
+            <p class="my-20">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae architecto vero repellat tempora qui
+                earum eos soluta impedit, odit praesentium nihil rem temporibus voluptates laudantium saepe nostrum non
+                velit accusamus?
+            </p>
+            <p class="my-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere obcaecati vero est provident amet esse
+                in quasi molestiae! Distinctio vel natus, sunt molestiae nostrum magni quos voluptas. Nesciunt, ut
+                beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere obcaecati vero est provident amet
+                esse in quasi molestiae! Distinctio vel natus, sunt molestiae nostrum magni quos voluptas. Nesciunt, ut
+                beatae?
+            </p>
+            <header class="my-20">
+                <h3 tabindex="0">Perfect for you</h3>
+            </header>
+
+            <p class="my-20">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis esse soluta quos inventore illo
+                veniam odio facere nesciunt ad obcaecati, commodi quam vero dignissimos asperiores reprehenderit iure
+                minima at ea?
+            </p>
+            <figure class="my-20">
+                <img src="./public/tiber-river.jpg" alt="A river with Light Blue water" class="border_radius">
+                <figcaption>
+                    There have not been any since
+                </figcaption>
+            </figure>
+            <header class="my-20">
+                <h2 tabindex="0">The Final Report</h2>
+            </header>
+            <div class="div"></div>
+            <p class="my-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit possimus explicabo? Fuga
+                quisquam iusto itaque, ullam quibusdam eius sunt nihil aut. Eaque laboriosam accusantium non facere
+                sequi repellat nisi.
+            </p>
+            <ul class="list my-20">
+                <li tabindex="0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsam modi minima, omnis,
+                    architecto voluptatum cum mollitia nam facere similique in maiores amet voluptas optio. Excepturi
+                    esse ipsa consequuntur impedit.
+                </li>
+
+                <li tabindex="0">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere veritatis pariatur cum fugiat
+                    itaque, dolores facilis non quis repellat sunt accusamus. Voluptas doloremque quaerat quod velit
+                    modi suscipit nemo in!
+                </li>
+            </ul>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facere? Harum omnis repellat eos
+                labore. Beatae doloribus eius, maiores ex, ratione, cumque ipsum repudiandae necessitatibus veritatis
+                culpa voluptatum cum odit?
+            </p>
+        </article>
+    </main>
+    <footer role="contentinfo" class="flex_center">
+        <p>&copy;A_Ali</p>
+    </footer>
+</body>
+
+</html>
